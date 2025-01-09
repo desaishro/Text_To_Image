@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Text-to-Image Generator</h1>
+            <nav>
+                <a href="signin.html" class="header-link">Sign In</a>
+                <a href="signup.html" class="header-link">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <input type="text" id="textInput" placeholder="Enter text to generate an image">
+        <button id="generateBtn">Generate Image</button>
+
+        <div id="imageContainer">
+            <img id="generatedImage" alt="Generated Image" />
+        </div>
+
+        <div class="controls">
+            <label>Brightness:</label>
+            <input type="range" id="brightness" min="0" max="200" value="100">
+            
+            <label>Contrast:</label>
+            <input type="range" id="contrast" min="0" max="200" value="100">
+            
+            <label>Saturation:</label>
+            <input type="range" id="saturation" min="0" max="200" value="100">
+
+            <button id="grayscaleBtn">Grayscale</button>
+            <button id="inverseBtn">Inverse</button>
+        </div>
+
+        <button id="downloadBtn" style="display: none;">Download Image</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

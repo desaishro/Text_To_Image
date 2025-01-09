@@ -1,0 +1,213 @@
+/* General Reset */
+body, h1, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+.header-link {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.header-link:hover {
+    color: #ffdd57;
+}
+/* Container for content */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Text input styling */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Image container styling */
+#imageContainer {
+    margin: 20px 0;
+}
+
+#generatedImage {
+    max-width: 100%;
+    border: 3px solid #007bff;
+    border-radius: 5px;
+    display: none;
+}
+
+/* Controls styling */
+.controls {
+    margin: 20px 0;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+}
+
+button#grayscaleBtn, button#inverseBtn {
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 8px 12px;
+    background-color: #28a745;
+}
+
+button#grayscaleBtn:hover, button#inverseBtn:hover {
+    background-color: #218838;
+}
+
+/* Download button styling */
+#downloadBtn {
+    margin-top: 20px;
+    display: none;
+    background-color: #17a2b8;
+}
+
+#downloadBtn:hover {
+    background-color: #138496;
+}
+
+/* Sign In and Sign Up styling */
+.auth-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.auth-container h1 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.auth-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.auth-container input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.auth-container button {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+    background-color: #0056b3;
+}
+
+.auth-container p {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.auth-container a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}
