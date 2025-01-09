@@ -1,5 +1,13 @@
 Textroverse
+![image](https://github.com/user-attachments/assets/095d00ee-6dbc-426b-81e9-574781875890)
+![image](https://github.com/user-attachments/assets/9b3a105d-7b97-46f7-87ed-2664147fbabc)
+![image](https://github.com/user-attachments/assets/ca505c48-0dbe-4849-9b7a-c1d0fee1eef9)
+
+
+
 Textroverse is a simple web tool that allows users to transform text into customized images quickly and easily. It empowers users to adjust elements like brightness, contrast, saturation, and apply filters such as grayscale, sepia, or inverse. Once satisfied with the image, users can download it for various purposes, including social media posts, marketing campaigns, or personal projects.
+
+
 
 Table of Contents
 Features
@@ -38,19 +46,13 @@ JavaScript (for pixel-based image adjustments)
 CSS (for filter applications)
 Setup and Installation
 Clone this repository:
-
-bash
-Copy code
 git clone https://github.com/desaishro/textroverse.git
 Install dependencies:
 
-bash
 Copy code
 cd textroverse
 npm install
 Start the server:
-
-bash
 Copy code
 npm start
 Visit http://localhost:3000 in your browser.
